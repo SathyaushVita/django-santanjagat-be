@@ -46,6 +46,8 @@ ALLOWED_HOSTS = ['hw-apiserver01.sts.com', 'hw-apiserver02.sts.com']
 
 
 
+
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 LOGGING = {
