@@ -1,0 +1,20 @@
+from .continent_serializer import continentsSerializer
+from .country_serializer import countrySerializer,CountrySerializer1
+from .organization_serializer import OrgnisationSerializer,OrgnisationSerializer1,OrgnisationSerializer2,OrganizationSerializer4,OrganizationSerializer6
+from .user_serializer import Register_LoginSerializer,Verify_LoginSerializer,MemberSerializer,MemberPicSerializer
+from .state_serializers import StateSeerializer
+from .district_serializer import DistrictSerializer
+from .category_serializer import CategorySerializer
+from .sub_category_serializer import SubCategorySerializer
+# from .event_serializer import EventSerializer1,EventSerializer
+from .training_serializers import TrainingSerializer,TrainingSerializer2,TrainingSerializer4,TrainingSerializer5
+# from .event_category_serializers import EventCategorySerializer
+from .training_category_serializers import TrainingCategorySerializer
+from .training_subcategory_serializer import TrainingSubCategorySerializer
+from .block_serializer import BlockSerializer
+from .village_serializer import VillageSerializer,VillageSerializer1,VillageSerializer2
+from .event_serializer import *
+
+
+from .event_categeory_serializer import *
+from .comment_serializer import CommentSerializer12,CommentSerializer
